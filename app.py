@@ -71,10 +71,9 @@ with st.sidebar:
     st.write(INFO["model"])
     st.write(f"Test accuracy {INFO['test_accuracy']:.2%} (macro-F1 {INFO['test_macro_f1']:.3f}) "
              f"on {INFO['n_test']:,} images it never saw in training.")
-    st.write("Trained on EuroSAT RGB (Helber et al., 2019): 64 x 64 pixel Sentinel-2 "
-             "patches of Europe, 10 m per pixel.")
-    st.warning("Coursework demo. Photos, drone images, map screenshots or other "
-               "resolutions will often be misread.")
+     st.write("Trained on EuroSAT RGB (Helber et al., 2019): 64 x 64 pixel Sentinel-2 "
+             "patches of Europe, 10 m per pixel. It has never seen phone photos or "
+             "zoomed-in map screenshots, so it may get those wrong.")
 
 source = st.radio("Image", ["Test image", "Upload your own"], horizontal=True)
 show_cam = st.toggle("Also show where the model found its evidence (Grad-CAM)")
