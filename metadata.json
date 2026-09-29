@@ -1,9 +1,9 @@
 {
   "model": "M2: custom CNN trained with augmentation",
-  "test_accuracy": 0.9750617283950618,
-  "test_macro_f1": 0.9743394110086026,
+  "test_accuracy": 0.9733333333333334,
+  "test_macro_f1": 0.9727475437275629,
   "n_test": 4050,
   "not_sure_below": 0.7,
-  "share_below": 0.028395061728395062,
-  "accuracy_below": 0.5478260869565217
+  "share_below": 0.029135802469135802,
+  "accuracy_below": 0.5084745762711864
 }

@@ -1,7 +1,7 @@
 # EuroSAT land-use classifier
 
 A small convolutional neural network (model M2 in my CN7023 report) that sorts 64 x 64
-Sentinel-2 image patches into ten land-use classes. Test accuracy 97.51%
+Sentinel-2 image patches into ten land-use classes. Test accuracy 97.33%
 on 4,050 unseen EuroSAT images.
 
 ## Run it on your computer
